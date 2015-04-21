@@ -89,3 +89,32 @@ end
 item = Item.new("a",1)
 item.quantity = 3
 p item.quantity
+
+# Ruby provides a couple of methods to make life easy when declaring getters and setters for your object.
+# Let us start with an example of the attr_reader method:
+
+class Item2
+  attr_reader :item_name # => getter
+
+  def initialize(item_name)
+    @item_name = item_name
+  end
+end
+
+item = Item2.new("agragarok")
+p item.item_name
+
+# attr_writer
+class Item
+  attr_writer :description, :color # ==> setter
+  def initialize(description, color)
+    @description = description
+    @color = color
+  end
+end
+
+# attr_accessor, which will define both the getter and setter
+# attr_reader :description will define def description; @description; end
+# attr_writer :description gives you def description=(new_description); @description = new_description; end
+# attr_accessor :description is equivalent to attr_reader :description; attr_writer :description
+
