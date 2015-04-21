@@ -41,3 +41,51 @@ Item.new("tv",1).show # ==> raise an error
 # By binding itself to the entire object, an instance variable makes itself available to every method of the object.
 
 
+# Getter and Setter methods
+# 'getter' methods whose sole purpose is to return the value of a particular instance variable.
+
+class Item
+  def initialize(item_name, quantity)
+    @item_name = item_name
+    @quantity = quantity
+  end
+
+  def item_name # ==> getter
+    @item_name
+  end
+end
+
+item = Item.new("tv",1)
+puts item.item_name
+
+class Item
+  def initialize(description, color)
+    @description = description
+    @color = color
+  end
+
+  def description # => which returns a string that has both the description and color of the object.
+    "#{@color} #{@description}"
+  end
+end
+
+# Setter
+
+class Item
+  def initialize(item_name, quantity)
+    @item_name = item_name
+    @quantity = quantity
+  end
+
+  def quantity=(new_quantity) # setter
+    @quantity = new_quantity
+  end
+
+  def quantity
+    @quantity
+  end
+end
+
+item = Item.new("a",1)
+item.quantity = 3
+p item.quantity
