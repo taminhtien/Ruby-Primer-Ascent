@@ -150,7 +150,7 @@ addition = lambda {|a, b| a + b }
 puts addition.call(5, 5)
 
 addition = lambda {|a, b|
-  a + bs
+  a + b
 }
 puts addition.call(5, 5)
 
@@ -161,3 +161,40 @@ puts addition.call(5, 5)
 
 addition = lambda do |a, b|; a + b; end
 puts addition.call(5, 5)
+
+# Proc, Block and Lambda are often used interchangeably in Ruby
+
+puts lambda {} # => Proc
+puts Proc.new {} # => Proc
+
+# => both approaches produce an instance of a Proc
+
+# The return within the block hands control back to the method
+
+def a_method
+  lambda { return "we just returned from the block" }.call
+  return "we just returned from the calling method"
+end
+
+puts a_method # => "we just returned from the calling method"
+
+def a_method
+  Proc.new { return "we just returned from the block" }.call
+  return "we just returned from the calling method"
+end
+
+puts a_method # => "we just returned from the block"
+
+# The -> literal form is a shorter version of Kernel#lambda
+short = ->(a, b) { a + b }
+puts short.call(2, 3)
+
+long = lambda { |a, b| a + b }
+puts long.call(2, 3)
+
+# proc is a method and not a literal form like -> nor a keyword like yield.
+short = proc { |a, b| a + b }
+puts short.call(2, 3)
+
+long = Proc.new { |a, b| a + b }
+puts long.call(2, 3)
