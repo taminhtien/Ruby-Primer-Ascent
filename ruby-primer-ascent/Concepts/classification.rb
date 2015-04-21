@@ -56,3 +56,60 @@ end
 
 p is_ancestor?(Numeric, String)
 p Numeric.superclass
+
+# Inheriting Class
+class MyArray < Array
+end
+
+class Rectangle
+  def initialize(length, breadth)
+    @length = length
+    @breadth = breadth
+  end
+
+  def perimeter
+    2 * (@length + @breadth)
+  end
+end
+
+class Square < Rectangle
+  def initialize(size)
+    @length = size
+    @breadth = size
+  end
+end
+
+# Redefining methods
+# Redefining a method involves simply replacing one method with another.
+# The original method is simply... lost.
+
+class Rectangle
+  def initialize(length, breadth)
+    @length = length
+    @breadth = breadth
+  end
+
+  def perimeter
+    2 * (@length + @breadth)
+  end
+
+  def area
+    @length * @breadth
+  end
+end
+
+# Add an empty method named perimeter
+# or area and watch tests break
+class Rectangle
+  def perimeter
+  end
+
+  def area
+  end
+end
+
+class Fixnum
+  def +(other)
+    42
+  end
+end
