@@ -113,3 +113,45 @@ class Fixnum
     42
   end
 end
+
+# Super Powered
+
+class Animal
+  def move
+    "I can move"
+  end
+end
+
+class Bird < Animal
+  def move
+    super + " by flying"
+  end
+end
+
+puts Animal.new.move
+puts Bird.new.move
+
+class Animal
+  def move
+    "I can move"
+  end
+end
+
+class Bird < Animal
+  def move
+    super + " by flying"
+  end
+end
+
+# Your code here
+class Human < Animal
+  def move
+    super + " by walking"
+  end
+end
+
+class Penguin < Bird
+  def move
+    "I can move by swimming"
+  end
+end
