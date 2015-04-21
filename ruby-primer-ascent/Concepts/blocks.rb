@@ -143,3 +143,21 @@ end
 Filter = lambda do |array, &block|
   array.select(&block)
 end
+
+# Introducing the do-end delimiter
+
+addition = lambda {|a, b| a + b }
+puts addition.call(5, 5)
+
+addition = lambda {|a, b|
+  a + bs
+}
+puts addition.call(5, 5)
+
+addition = lambda do |a, b|
+  a + b
+end
+puts addition.call(5, 5)
+
+addition = lambda do |a, b|; a + b; end
+puts addition.call(5, 5)
