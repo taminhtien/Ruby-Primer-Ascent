@@ -174,6 +174,9 @@ p ApplicationConfiguration.get("name")
 
 # Instance variables are available only for instances of a class.
 # They look like @name. Class variables are available to both class methods and instance methods.
-# They look like @@name
-                                                                                                                            It is almost always a bad idea to use a class variable to store state. There are only a very few valid use cases where class variables are the right choice.
-                                                                                                                                                                                                                                                                                     Prefer class instance variables over class variables when you do really need store data at a class level. Class instance variables use the same notation as that of an instance variable. But unlike instance variables, you declare them inside the class definition directly.
+# They look like @@name It is almost always a bad idea to use a class variable to store state.
+# There are only a very few valid use cases where class variables are the right choice.
+# Prefer class instance variables over class variables when you do really need store data at a class level.
+# Class instance variables use the same notation as that of an instance variable.
+# But unlike instance variables, you declare them inside the class definition directly.
+
