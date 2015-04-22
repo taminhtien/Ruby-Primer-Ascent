@@ -16,8 +16,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ruby-primer-ascent@class_methods_class_variables.coverage" NAME="class_methods_class_variables Coverage Results" MODIFIED="1429670813676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concepts" MODULE_NAME="ruby-primer-ascent" />
     <SUITE FILE_PATH="coverage/ruby-primer-ascent@block.coverage" NAME="blocks Coverage Results" MODIFIED="1429506607955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concepts" MODULE_NAME="ruby-primer-ascent" />
-    <SUITE FILE_PATH="coverage/ruby-primer-ascent@equality_of_objects.coverage" NAME="equality_of_objects Coverage Results" MODIFIED="1429689695831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concepts" MODULE_NAME="ruby-primer-ascent" />
+    <SUITE FILE_PATH="coverage/ruby-primer-ascent@equality_of_objects.coverage" NAME="equality_of_objects Coverage Results" MODIFIED="1429690020070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concepts" MODULE_NAME="ruby-primer-ascent" />
     <SUITE FILE_PATH="coverage/ruby-primer-ascent@lassification.coverage" NAME="lassification Coverage Results" MODIFIED="1429601912974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concepts" MODULE_NAME="ruby-primer-ascent" />
+    <SUITE FILE_PATH="coverage/ruby-primer-ascent@puts_p_to_s_inspect.coverage" NAME="puts_p_to_s_inspect Coverage Results" MODIFIED="1429716973980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concepts" MODULE_NAME="ruby-primer-ascent" />
     <SUITE FILE_PATH="coverage/ruby-primer-ascent@blocks_procs_lambdas.coverage" NAME="blocks_procs_lambdas Coverage Results" MODIFIED="1429589186139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concepts" MODULE_NAME="ruby-primer-ascent" />
     <SUITE FILE_PATH="coverage/ruby-primer-ascent@blocks__1_.coverage" NAME="blocks (1) Coverage Results" MODIFIED="1429591549139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concepts" MODULE_NAME="ruby-primer-ascent" />
   </component>
@@ -73,11 +74,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="equality_of_objects.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="equality_of_objects.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Concepts/equality_of_objects.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.287293" vertical-offset="726" max-vertical-offset="2465">
-              <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2103" max-vertical-offset="2482">
+              <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numeric.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs22/numeric.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2515" max-vertical-offset="7565">
+              <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="puts_p_to_s_inspect.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Concepts/puts_p_to_s_inspect.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4364641" vertical-offset="573" max-vertical-offset="969">
+              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -96,6 +117,7 @@
         <option value="$PROJECT_DIR$/Concepts/instance_variables.rb" />
         <option value="$PROJECT_DIR$/Concepts/class_methods_class_variables.rb" />
         <option value="$PROJECT_DIR$/Concepts/equality_of_objects.rb" />
+        <option value="$PROJECT_DIR$/Concepts/puts_p_to_s_inspect.rb" />
       </list>
     </option>
   </component>
@@ -245,7 +267,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Ruby.equality_of_objects">
+  <component name="RunManager" selected="Ruby.puts_p_to_s_inspect">
     <configuration default="false" name="blocks (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-primer-ascent" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -259,24 +281,6 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Concepts/blocks.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="blocks_procs_lambdas" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="ruby-primer-ascent" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Concepts" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Concepts/blocks_procs_lambdas.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -331,6 +335,24 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Concepts/equality_of_objects.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="puts_p_to_s_inspect" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby-primer-ascent" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Concepts" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Concepts/puts_p_to_s_inspect.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -418,18 +440,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Ruby.blocks (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.blocks_procs_lambdas" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.classification" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.class_methods_class_variables" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.equality_of_objects" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.classification" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.class_methods_class_variables" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.equality_of_objects" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.puts_p_to_s_inspect" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.equality_of_objects" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.class_methods_class_variables" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.classification" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.blocks (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.blocks_procs_lambdas" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.puts_p_to_s_inspect" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.equality_of_objects" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.class_methods_class_variables" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.classification" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.blocks (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +504,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25718608" sideWeight="0.49874055" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31345826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31345826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -610,8 +632,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Concepts/equality_of_objects.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.287293" vertical-offset="726" max-vertical-offset="2465">
-          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2103" max-vertical-offset="2482">
+          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs22/numeric.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2515" max-vertical-offset="7565">
+          <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concepts/puts_p_to_s_inspect.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4364641" vertical-offset="573" max-vertical-offset="969">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
           <folding />
         </state>
       </provider>
