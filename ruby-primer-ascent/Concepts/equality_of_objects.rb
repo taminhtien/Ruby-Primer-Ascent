@@ -137,3 +137,5 @@ class Item7
     @item_name.hash ^ @quantity.hash ^ @supplier_name.hash ^ @price.hash
   end
 end
+
+p 1.eql?1
